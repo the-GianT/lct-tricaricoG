@@ -9,4 +9,8 @@ Signals are a limited way of sending information to a process in the form of an 
 
 	$ kill <PID>
 
--sends
+The default action for `kill` is to send the signal SIGTERM (defined as the integer 15) to PID. You can use a flag to send different a different signal instead:
+
+    $ kill [-<SIGNAL>] <PROCESS>
+
+e.g.
