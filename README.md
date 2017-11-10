@@ -33,11 +33,12 @@ operating system as I am).
 Signal handling in c programs <signal.h>
 ----------------------------------------
 
-You can also use `kill` in your code:
+You can use `kill` in your code as well:
 
     kill(<PID>, <SIGNAL>)
 
 -Returns 0 on success
+
 -Returns -1 and sets errno on failure
 
 ### sighandler
@@ -63,6 +64,7 @@ static void sighandler(int signo)
     printf("I've been interrupted, how rude!");
   }
 }
+```
 
 This overrides the default action for that signal, meaning that it does not
 exit the process anymore unless you specify as such by calling the exit
