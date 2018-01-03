@@ -9,7 +9,7 @@ conceptual stuff, as we young Padawans have much to learn about networks.
 
 ### Socket
 
-A socket is a connection between two programs over a network. Each socket corresponds to an IP Address/Port pair (by that I mean a pair consisting of an IP
+A socket is a connection between two programs over a network. Each socket corresponds to an IP* Address/Port pair (by that I mean a pair consisting of an IP
 Address and a Port, not an IP Address or a Port pair, in case there is any
 confusion with the slash I used in that sentence).
 
@@ -71,3 +71,5 @@ This allows us to convert every possible IPv4 address to a corresponding IPv6
 address, but not the other way around, which creates compatibility issues that
 help explain why IPv4 is still the standard for the internet and the transition
 to IPv6 is proceeding quite slowly.
+
+**Tech News** [Iran blocks messaging app Telegram used by protesters](https://www.usatoday.com/story/tech/2018/01/02/iran-blocks-messaging-app-used-protesters-share-info-demonstrations/998445001/)
