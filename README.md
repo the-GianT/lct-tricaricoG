@@ -42,7 +42,7 @@ its own single public IP address. However, there is also IPv6, created to make
 room for many more addresses (approximately 2<sup>128</sup>, which is a very
 large number). IPv6 addresses use this format:
 
-[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff] (using
+ [0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff] (using
 hexidecimal notation)
 
 Each group in this system is known as a hextet (although this is not as standard
