@@ -42,7 +42,6 @@ with this, where there are multiple private addresses within a network that has
 its own single public IP address. However, there is also IPv6, created to make
 room for many more addresses (approximately 2<sup>128</sup>, which is a very
 large number). IPv6 addresses are in this format (using hexadecimal notation):
-
 [0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]
 
 Each group in this system is known as a hextet (although this is not as standard
@@ -73,4 +72,4 @@ address, but not the other way around, which creates compatibility issues that
 help explain why IPv4 is still the standard for the internet and the transition
 to IPv6 is proceeding quite slowly.
 
-**Tech News** [Iran blocks messaging app Telegram used by protesters](https://www.usatoday.com/story/tech/2018/01/02/iran-blocks-messaging-app-used-protesters-share-info-demonstrations/998445001/)
+**Tech News:** [Iran blocks messaging app Telegram used by protesters](https://www.usatoday.com/story/tech/2018/01/02/iran-blocks-messaging-app-used-protesters-share-info-demonstrations/998445001/)
