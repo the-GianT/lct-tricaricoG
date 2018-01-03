@@ -41,7 +41,9 @@ devices connected to the interwebs. We use network address translation to deal
 with this, where there are multiple private addresses within a network that has
 its own single public IP address. However, there is also IPv6, created to make
 room for many more addresses (approximately 2<sup>128</sup>, which is a very
-large number). IPv6 addresses are in this format (using hexadecimal notation):
+large number).
+
+IPv6 addresses are in this format (using hexadecimal notation):
 [0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]
 
 Each group in this system is known as a hextet (although this is not as standard
