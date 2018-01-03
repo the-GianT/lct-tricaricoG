@@ -1,5 +1,5 @@
 # lct-tricaricoG
-last class today for 2017-11-08, to be added to the main one for pd. 5
+last class today for 2018-01-02, to be added to the main one for pd. 5
 
 ## Tuesday, 2018-01-02 Socket to Me by Gian Tricarico
 
