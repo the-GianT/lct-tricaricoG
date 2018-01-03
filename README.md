@@ -31,7 +31,8 @@ easier.
 
 IPv4 has 4-byte addresses of the form:
 
-[0-255].[0-255].[0-255].[0-255] (each group contains some integer from 0 to 255)
+[0-255].[0-255].[0-255].[0-255]
+(each group contains some integer from 0 to 255)
 
 Each of these four groups is called an *octet*, because each group is 8 bits,
 or one byte. At most there are 2<sup>32</sup>, or approximately 4.5 billion, IP
@@ -42,8 +43,8 @@ its own single public IP address. However, there is also IPv6, created to make
 room for many more addresses (approximately 2<sup>128</sup>, which is a very
 large number). IPv6 addresses use this format:
 
- [0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff] (using
-hexidecimal notation)
+[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]
+(using hexidecimal notation)
 
 Each group in this system is known as a hextet (although this is not as standard
 of a term as octet). In order to write it out more concisely, we ignore leading 0s and replace any number of consecutive all 0 hextets with the double colon (::). One can only use the double colon once in a single IP address, as otherwise the address would be ambiguous.
