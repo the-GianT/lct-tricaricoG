@@ -5,7 +5,7 @@ last class today for 2018-01-02, to be added to the main one for pd. 5
 
 Today we began learning the basic concepts of networking. We will be moving on
 to the coding part shortly and then we will go back to learn more about
-conceptual stuff, as we young Padawans have much to learn about networks.
+conceptual networking stuff, as we young Padawans have much to learn.
 
 ### Socket
 
@@ -13,16 +13,17 @@ A socket is a connection between two programs over a network. Each socket corres
 Address and a Port, not an IP Address or a Port pair, in case there is any
 confusion with the slash I used in that sentence).
 
-*I.P. stands for internet protocol.
+*IP stands for internet protocol.
 
 To use a socket, you must
+
 0. create the socket
 1. bind it to an address and port
 2. listen/initiate a connection (This is similar to how the clients and servers
 behaved when we were working with pipes.)
 3. send/receive data
 
-### I.P. Addresses
+### IP Addresses
 
 All devices connected to the internet have an IP address. IP addresses come in
 two flavors: IPv4 and IPv6. Addresses are allocated in blocks to make routing
@@ -35,11 +36,11 @@ IPv4 has 4-byte addresses of the form:
 Each of these four groups is called an *octet*, because each group is 8 bits,
 or one byte. At most there are 2<sup>32</sup>, or approximately 4.5 billion, IP
 addresses. Teh problem is, that's not enough for the multitude of computers and
-devices that are connected to the internet. We use network address translation
-to solve this, where there are multiple private addresses within a network that
-has its own single public IP address, but there is also IPv6, which makes room
-for many more addresses (approximately 2<sup>128</sup>, which is an extremely
-large number). IPv6 addresses are in this format:
+devices connected to the interwebs. We use network address translation to deal
+with this, where there are multiple private addresses within a network that has
+its own single public IP address. However, there is also IPv6, created to make
+room for many more addresses (approximately 2<sup>128</sup>, which is a very
+large number). IPv6 addresses use this format:
 
 [0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff]:[0-ffff] (using
 hexidecimal notation)
